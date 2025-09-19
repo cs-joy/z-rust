@@ -5,6 +5,6 @@
  * Constants can be declared in any scope, including the global scope, which makes them useful for values that many parts of code need to know about.
  */
 fn main() {
-    const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
+    const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3; // required: must provide a data type of constant variable
     println!("THREE HOURS IN SECONDS= {}", THREE_HOURS_IN_SECONDS);
 }
